@@ -1,0 +1,41 @@
+@import '../node_modules/mini.css/dist/mini-default.min.css';
+
+form {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #c2bebe;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.predicted-value {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 25px;
+  color: #0026ff;
+}
+
+
+
